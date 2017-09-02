@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.ContentSearch.LucidworksProvider", "Sitecore.ContentSearch.LucidworksProvider\Sitecore.ContentSearch.LucidworksProvider.csproj", "{2310B5F8-FE5B-43D2-9097-88DC60C8CA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lucidwords.Net", "Lucidwords.Net\Lucidwords.Net.csproj", "{ABDFA0F9-C482-4636-908C-7AB69289D365}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lucidworks", "Lucidworks", "{3D75D4F9-4D6C-4965-B5C5-97AC523D7A1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore", "Sitecore", "{730D3CFB-764B-4560-B859-7F7EE7E42C00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2310B5F8-FE5B-43D2-9097-88DC60C8CA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2310B5F8-FE5B-43D2-9097-88DC60C8CA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2310B5F8-FE5B-43D2-9097-88DC60C8CA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2310B5F8-FE5B-43D2-9097-88DC60C8CA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDFA0F9-C482-4636-908C-7AB69289D365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDFA0F9-C482-4636-908C-7AB69289D365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDFA0F9-C482-4636-908C-7AB69289D365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDFA0F9-C482-4636-908C-7AB69289D365}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2310B5F8-FE5B-43D2-9097-88DC60C8CA8B} = {730D3CFB-764B-4560-B859-7F7EE7E42C00}
+		{ABDFA0F9-C482-4636-908C-7AB69289D365} = {3D75D4F9-4D6C-4965-B5C5-97AC523D7A1E}
+	EndGlobalSection
+EndGlobal
